@@ -2,10 +2,11 @@
 public class jatekostipp {
 
     // játékos tippjei getterek / setterek létrehozása
+    
     public class Jatekos {
     public static final String TIPP_ARANY = "arany";
     public static final String TIPP_EZUST = "ezüst";
-    public static final String TIPP_BRONZ = "ezüst";
+    public static final String TIPP_BRONZ = "bronz";
     
     private String tipp;
 
