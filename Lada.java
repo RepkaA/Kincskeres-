@@ -6,8 +6,8 @@ public class Lada {
     private String leiras;
 
     public Lada()  { // játékszabály
-        this("3 láda közül az egyikben van a  rejti a kincs "
-                + "Mindegyiken van egy felirat (ami nem változtatható, mert belevésték a ládába),"
+        this("3 láda közül az egyik  rejti a kincset "
+                + "Mindegyik ládán egy felirat van (Ez nem változik meg sosem),"
                 + " de csak az egyik láda állítása igaz!");
     }
     public Lada(String leiras) {
