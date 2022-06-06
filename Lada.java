@@ -32,4 +32,14 @@ public class Lada {
     public String getAranyFelirat() {
         return aranyFelirat;
     }    
+public String jatekostippellenorzese(String tipp){
+        if (tipp.equals(Jatekos.TIPP_EZUST)) {
+            return String.format("Siker", lezaras);
+        }
+        return String.format("Nincs siker", lezaras2);
+    }
+public static final String lezaras="Sikerült megtalálnod a kincset! Vége a játéknak!";
+public static final String lezaras2="Sajnos nem sikerült megtalálnod a kincset. Vége a Játéknak.";
 }
+
+
